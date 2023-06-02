@@ -11,6 +11,8 @@ declare module 'react-native-deck-swiper' {
     cardStyle?: number | object;
     cardVerticalMargin?: number;
     childrenOnTop?: boolean;
+    dragStart?: () => void;
+    dragEnd?: () => void;
     containerStyle?: object;
     disableBottomSwipe?: boolean;
     disableLeftSwipe?: boolean;
